@@ -6,7 +6,9 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import chess from "./chesss.jpg";
+import map from "./map.jpg";
+import travel from "./travel.png";
 
 
 
@@ -60,4 +62,7 @@ export {
   facetracking,
   scroll,
   modern,
+  chess,
+  map,
+  travel
 };

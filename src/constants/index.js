@@ -24,6 +24,9 @@ import {
   scroll,
   modern,
   wordpress,
+  map,
+  chess,
+  travel,
 } from "../assets";
 
 export const navLinks = [
@@ -47,7 +50,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -192,6 +195,48 @@ const testimonials = [
 
 const projects = [
   {
+    name: "chess game",
+    description:
+      "created a multiplayer chess game using socket.io and chess.js .",
+    tags: [
+      {
+        name: "express",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "socket.io",
+        color: "green-text-gradient",
+      },
+      {
+        name: "chess.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chess,
+    source_code_link: "https://github.com/ankitadhikari2004/chess",
+  },
+  {
+    name: "live location tracking",
+    description:
+      "created a simple location tracking website using leaflet and socket.io which uses users current location and show it in map .",
+    tags: [
+      {
+        name: "leaflet",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "socket.io",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: map,
+    source_code_link: "https://github.com/ankitadhikari2004/tracker-1",
+  },
+  {
     name: "face tracking turrent",
     description:
       "robust real-time face tracking system utilizing advanced computer vision algorithms. The system accurately identifies and tracks face and point it using turrent controlled using arduino.",
@@ -253,6 +298,27 @@ const projects = [
     ],
     image: modern,
     source_code_link: "https://github.com/ankitadhikari2004/modern-landing-page",
+  },
+  {
+    name: "Bharat Trips",
+    description:
+      "created a tours and travel website for hackathon conducted at our university.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "axios",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: travel,
+    source_code_link: "https://github.com/ankitadhikari2004/BharatTrips",
   },
 ];
 
