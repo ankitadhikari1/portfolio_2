@@ -27,6 +27,11 @@ import {
   map,
   chess,
   travel,
+  pixelpack,
+  tinyhop,
+  splithub,
+  calc,
+  tip
 } from "../assets";
 
 export const navLinks = [
@@ -50,11 +55,11 @@ const services = [
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "Machine Learning",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "System Design",
     icon: backend,
   },
   {
@@ -168,32 +173,119 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-    
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, cupiditate ullam dolorem distinctio ut laborum..",
-    name: "abc",
+      "Ankit doesn’t just code—he also remembers all his friends’ Wi-Fi passwords. Truly a full-stack human being!",
+    name: "Tony Stark",
     designation: "CFO",
-    company: "xyz",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    company: "Stark Industries",
+    image: "https://randomuser.me/api/portraits/men/11.jpg",
   },
   {
     testimonial:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, cupiditate ullam dolorem distinctio ut laborum..",
-    name: "abc",
+      "Watching Ankit debug code is like watching a Christopher Nolan movie—confusing at first, but mind-blowing at the end.",
+    name: "Forrest Gump",
     designation: "COO",
-    company: "xyz",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    company: "Box of Chocolates Inc.",
+    image: "https://randomuser.me/api/portraits/men/29.jpg",
   },
   {
     testimonial:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, cupiditate ullam dolorem distinctio ut laborum.!",
-    name: "abc",
+      "If coffee ever disappears from the world, I’m convinced Ankit could still power his laptop with pure determination.",
+    name: "Hermione Granger",
     designation: "CTO",
-    company: "xyz",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "Hogwarts Tech",
+    image: "https://randomuser.me/api/portraits/women/44.jpg",
+  },
+  {
+    testimonial:
+      "Ankit’s Google search history deserves a documentary. Half of it is bugs, the other half is Stack Overflow.",
+    name: "Deadpool",
+    designation: "Head of Chaos",
+    company: "Marvel Enterprises",
+    image: "https://randomuser.me/api/portraits/men/52.jpg",
+  },
+  {
+    testimonial:
+      "I once asked Ankit for help with my laptop. He fixed it, upgraded it, and now it makes me coffee every morning.",
+    name: "Luna Lovegood",
+    designation: "Chief Daydreamer",
+    company: "Quibbler Media",
+    image: "https://randomuser.me/api/portraits/women/65.jpg",
+  },
+  {
+    testimonial:
+      "Working with Ankit is like having Wi-Fi in the mountains—rare, magical, and makes life way better.",
+    name: "Jon Snow",
+    designation: "Lord Commander",
+    company: "The Night’s Watch",
+    image: "https://randomuser.me/api/portraits/men/77.jpg",
   },
 ];
 
+
 const projects = [
+  {
+    name: "TinyHop",
+    description:
+      "Built a React.js + Supabase URL shortener with custom links and fast redirection.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "shadcn",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tinyhop,
+    source_code_link: "https://tinyhop.vercel.app/",
+  },
+  {
+    name: "split Hub",
+    description:
+      "Developed SplitHub, a React + Supabase app to manage group expenses with automatic split, tracking, and settlement.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Convex",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: splithub,
+    source_code_link: "https://splithub.vercel.app/",
+  },
+  {
+    name: "pixel pack",
+    description:
+      "A simple, beautiful web app to compress text files, images, and PDFs.",
+    tags: [
+      {
+        name: "huffman",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "deflate",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pixelpack,
+    source_code_link: "https://pixel-pack-iota.vercel.app/",
+  },
   {
     name: "chess game",
     description:
@@ -277,6 +369,48 @@ const projects = [
     ],
     image: scroll,
     source_code_link: "https://github.com/ankitadhikari2004/scrolling-animation",
+  },
+    {
+    name: "HeheCalculator",
+    description:
+      "A simple calculator app for performing basic arithmetic operations with a clean UI.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css,javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "weather api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: calc,
+    source_code_link: "https://hehecalculator.netlify.app/",
+  },
+   {
+    name: "Tip calculator",
+    description:
+      "A Tip Calculator that lets users quickly split bills and calculate tips with adjustable percentages.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tip,
+    source_code_link: "https://ankitadhikari1.github.io/tip-calculator/",
   },
   {
     name: "Modern Landing Page",

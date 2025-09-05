@@ -33,6 +33,12 @@ import trustingbrains from "./company/trustingbrains.png";
 import facetracking from "./facetracking.png";
 import scroll from "./scroll.png";
 import modern from "./modern.png";
+import pixelpack from "./pixelpack.png"
+import splithub from "./splithub.png"
+import tinyhop from "./tinyhop.png"
+import calc from "./calc.png"
+import tip from "./tip.png"
+
 
 export {
   logo,
@@ -64,5 +70,10 @@ export {
   modern,
   chess,
   map,
-  travel
+  travel,
+  pixelpack,
+  tinyhop,
+  splithub,
+  calc,
+  tip
 };
