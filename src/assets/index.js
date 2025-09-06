@@ -38,6 +38,7 @@ import splithub from "./splithub.png"
 import tinyhop from "./tinyhop.png"
 import calc from "./calc.png"
 import tip from "./tip.png"
+import tictactoe from "./tictactoe.png"
 
 
 export {
@@ -75,5 +76,6 @@ export {
   tinyhop,
   splithub,
   calc,
-  tip
+  tip,
+  tictactoe
 };

@@ -31,7 +31,8 @@ import {
   tinyhop,
   splithub,
   calc,
-  tip
+  tip,
+  tictactoe
 } from "../assets";
 
 export const navLinks = [
@@ -348,6 +349,27 @@ const projects = [
     ],
     image: facetracking,
     source_code_link: "https://github.com/ankitadhikari2004/face-tracking-module",
+  },
+  {
+    name: "TicTacToe",
+    description:
+      "A terminal-based Tic Tac Toe game in C++ implementing the Min-Max algorithm, designed with Low-Level Design principles for clean, modular code.",
+    tags: [
+      {
+        name: "cpp",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "min-max",
+        color: "green-text-gradient",
+      },
+      {
+        name: "low level design",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tictactoe,
+    source_code_link: "https://github.com/ankitadhikari1/tic-tac-toe-OOPS-LLD",
   },
   {
     name: "Scroll Animation",
