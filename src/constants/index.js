@@ -32,7 +32,10 @@ import {
   splithub,
   calc,
   tip,
-  tictactoe
+  tictactoe,
+  tictactoev2,
+  keysensei
+
 } from "../assets";
 
 export const navLinks = [
@@ -224,6 +227,48 @@ const testimonials = [
 
 
 const projects = [
+  {
+    name: "keySensei",
+    description:
+      "created a fusion of code + typing master .",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "shadcn",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: keysensei,
+    source_code_link: "https://keysensei.vercel.app/",
+  },
+  {
+    name: "TicTacToe v2",
+    description:
+      "created a interactive tictactoe game having different tic tac toe games and ai vs ai feature",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "min/max algo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "shadcn",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tictactoev2,
+    source_code_link: "https://tictactoe-a-ivs-ai-bet.vercel.app/",
+  },
   {
     name: "TinyHop",
     description:
